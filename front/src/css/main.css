@@ -1,0 +1,19 @@
+.main-box{
+    min-width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.main-box h1{
+    width: 100%;
+    font-size: 30px;
+    color: #767676;
+}
+
+input,textarea:focus-visible {
+    outline: none;
+}

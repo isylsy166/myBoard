@@ -1,0 +1,197 @@
+.body-box{
+    width: 100vw;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame{
+    width: 700px;
+    height: 900px;
+    border: none;
+    box-shadow: 5px 5px 19px gray;
+    border-radius: 25px;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: 40px 0px;
+}
+
+.frame h1{
+    margin: 12px 5px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.frame h3{
+    margin: 12px 5px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.frame p{
+    margin-left:10px;
+}
+
+
+.frame input{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    height: 30px;
+    padding: 3px 11px;
+}
+
+.frame input:focus-visible{
+    outline: none;
+    border: 1px solid #b4d1ff;
+    color: #5b89d2;
+}
+
+.frame button{
+    height: 37px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 13px;
+    cursor: pointer;
+}
+
+.frame textarea{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 30px;
+    height: 30px;
+    padding: 11px 11px;
+    resize: none;
+}
+
+.frame textarea:focus-visible{
+    outline: none;
+    border: 1px solid #b4d1ff;
+    color: #5b89d2;
+}
+
+.addImg-button{
+    border: 2px solid #b4d1ff;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    color: #b4d1ff;
+    font-size: 49px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 6px 0px;
+}
+
+.addAddress_button{
+    background-color: black;
+    color: white;
+    width: 120px;
+}
+
+.save_button{
+    background-color: #5b89d2;
+    color: white;
+    width: 100px;
+    height: 41px !important;
+}
+
+
+.boardDetail_table{
+    width: 800px;
+}
+
+.boardDetail_table th {
+    font-size: 18px;
+    color: #5b89d2;
+    border-bottom: 1px solid #5b89d2;
+    height: 38px;
+}
+
+.boardDetail_table td {
+    height: 40px;
+    padding-left: 27px;
+}
+
+.boardDetail_table tr:hover {
+    color: #5b89d2;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boardDetail_Box{
+    width: 100%;
+    height: auto;
+    border: 1px solid #5b89d2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boardDetail_Box > h2{
+    font-size: 32px;
+    color: #5b89d2;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #5b89d2;
+    padding-bottom: 15px;
+
+}
+
+.boardTitle{
+    width: 100%;
+    text-align: right;
+    color: #5b89d2
+}
+
+.boardContent{
+    width: 90%;
+    font-size: 18px;
+    min-height: 200px;
+}
+
+/* 댓글 */
+
+.boardComment_box{
+    width: 900px;
+    border-top: 1px solid #5b89d2;
+    border-bottom: 1px solid #5b89d2;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.boardComment_text{
+    border: 1px solid #5b89d2;
+    border-radius: 8px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    padding: 10px 10px;
+}
+
+.boardComment_text:read-only{
+    border: none;
+    color: #5b89d2;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.boardCommentList_box{
+    width: 900px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+.commentAuthor{
+    font-size: 18px;
+    font-weight: 700;
+    color: #5b89d2;
+}
